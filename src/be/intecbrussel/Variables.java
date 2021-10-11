@@ -10,6 +10,9 @@ public class Variables {
         short myShort = 1; // -32 768 -> 32 767
         byte myByte = 2;   // -128 -> 127
 
+        myShort = (short) myLong;
+        System.out.println(myShort);
+
         // Voor kommagetallen
         float myFloat = 45.6f;
         double myDouble = 45.6;
